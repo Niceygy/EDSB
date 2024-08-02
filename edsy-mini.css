@@ -19,7 +19,7 @@ Frontier Customer Services (https://forums.frontier.co.uk/index.php?threads/elit
 	--font-fixed: normal normal normal 0.875rem/normal 'Telegrama', 'Courier New', 'Courier', monospace;
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'EuroCaps';
 	src: url('EuroCaps.woff2') format('woff2'), url('EuroCaps.woff') format('woff'), url('EuroCaps.ttf') format('truetype');
 }
@@ -30,7 +30,19 @@ Frontier Customer Services (https://forums.frontier.co.uk/index.php?threads/elit
 @font-face {
 	font-family: 'Telegrama';
 	src: local('Telegrama'), url('Telegrama.woff2') format('woff2'), url('Telegrama.woff') format('woff'), url('Telegrama.ttf') format('truetype');
-}
+} */
+@font-face {
+	font-family: 'EuroCaps';
+	src: url('fonts/EuroCaps.woff2') format('woff2'), url('fonts/EuroCaps.woff') format('woff'), url('fonts/EuroCaps.ttf') format('truetype');
+  }
+  @font-face {
+	font-family: 'Sintony';
+	src: local('Sintony'), url('fonts/Sintony.woff2') format('woff2'), url('fonts/Sintony.woff') format('woff'), url('fonts/Sintony.ttf') format('truetype');
+  }
+  @font-face {
+	font-family: 'Telegrama';
+	src: local('Telegrama'), url('fonts/Telegrama.woff2') format('woff2'), url('fonts/Telegrama.woff') format('woff'), url('fonts/Telegrama.ttf') format('truetype');
+  }
 * {
 	box-sizing: border-box;
 }
